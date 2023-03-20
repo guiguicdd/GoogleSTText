@@ -1,0 +1,29 @@
+{
+	"compilerOptions": {
+		"strict": true,
+		"lib": ["DOM", "ES2020"],
+		"module": "NodeNext",
+		"noImplicitReturns": false,
+		"resolveJsonModule": true,
+		"outDir": "lib",
+		"sourceMap": false,
+		"removeComments": true,
+		"esModuleInterop": true,
+		"target": "ES2021",
+		"baseUrl": "src",
+		"rootDir": "./src",
+		"paths": {
+			"utils/*": ["./utils/*", "./utils"]
+		},
+		"incremental": true,
+		"allowJs": true,
+		"strictNullChecks": true,
+		"moduleResolution": "NodeNext",
+		"allowSyntheticDefaultImports": true,
+		"skipLibCheck": true,
+		"forceConsistentCasingInFileNames": true
+	},
+	"compileOnSave": true,
+	"include": ["src/**/*", "src/example/**/*"],
+	"exclude": ["node_modules", "**/*.spec.ts"]
+}
